@@ -1,0 +1,18 @@
+body{
+	font-family: "Open sans", sans-serif;
+}
+
+.recorte{
+	float: left;
+	position: absolute;
+	height: 50%;
+}
+
+h1{
+float: right;
+font-family: "Open sans", sans-serif;
+padding: 40px;
+font-size: 22px; 
+
+	
+}
