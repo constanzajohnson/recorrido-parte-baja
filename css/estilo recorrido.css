@@ -35,7 +35,8 @@ font-size: 22px;
 }
 
 .recorte{
-    opacity:0.9; 
+
+ position: absolute; 
 
 }
 
@@ -45,7 +46,9 @@ body{
 
 h1{
 	font-family: 'Montserrat', sans-serif;
-	position: 50px;
+	position: relative;
+	right:340px;
+	
 }
 
 h2{
@@ -57,14 +60,40 @@ h2{
 .poema{
 	line-height: 15px;
 	margin: 80px;
-	float: right;
+	position: relative;
+	margin-left: 600px;
+	top:50px;
+	font-size:18px;
 }
 
 .contenido {
 	position: absolute;
-	margin: 30px;
+	margin: 150px;
+	top:1800px;
+	margin-left: 400px;
+	line-height: 25px;
+	
 }
 
-.fondo{
+.imagen inicial{
+  opacity: 0.8;
+  position: relative;
+  z-index: -1;
+  
+}
+
+.recorte2{
+
+ position: absolute;
+ top:2300px; 
+
+}
+
+.contenido2 {
+	position: absolute;
+	margin: 150px;
+	top:2000px;
+	margin-left: 400px;
+	line-height: 25px;
 	
 }
