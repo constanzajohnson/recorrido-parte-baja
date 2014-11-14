@@ -30,7 +30,7 @@ body img{
 
 .recorte{
 
- position: absolute; 
+ 
 
 }
 
@@ -41,9 +41,9 @@ body{
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
-	letter-spacing: 1px;
+	letter-spacing: -1px;
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 
 	
 }
@@ -61,12 +61,6 @@ h3{
 	
 }
 
-.poema{
-	
-	position: relative;
-	margin-bottom: 30px;
-
-}
 
 
 .contenido {
@@ -83,20 +77,18 @@ h3{
 }
 
 .recorte2{
- position: absolute;
- top:2300px; 
 
 }
 
-.contenido2 {
-	position: absolute;
 
-	
-}
+
+
 
 p.poema{
 	font-size: 18px;
-	line-height: 25px;
+	white-space: pre;
+	line-height: 30px;
+	margin-bottom:40px;
 	
 }
 
@@ -111,9 +103,19 @@ cite{
 	color: #8a8781;
 	line-height: 26px;
 	letter-spacing:0.5px;
+	text-align: center;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
 .fuente{
+    font-style: italic;
 	font-size:14px;
 	font-weight: 200;
+	color:#63615d;
+	float: right;
+}
+
+.composición1{
+	background-image: url(img/eucaliptus3.png);
 }
