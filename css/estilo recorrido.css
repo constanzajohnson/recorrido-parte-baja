@@ -85,7 +85,7 @@ h3{
 
 
 p.poema{
-	font-size: 18px;
+	font-size: 16px;
 	white-space: pre;
 	line-height: 30px;
 	margin-bottom:40px;
@@ -93,12 +93,12 @@ p.poema{
 }
 
 p.virgilio{
-    font-size: 16px;
+    font-size: 14px;
 	line-height: 25px;
 }
 
 cite{
-	font-size: 17px;
+	font-size: 16px;
 	font-style: italic;
 	color: #8a8781;
 	line-height: 26px;
@@ -110,7 +110,7 @@ cite{
 
 .fuente{
     font-style: italic;
-	font-size:14px;
+	font-size:13px;
 	font-weight: 200;
 	color:#63615d;
 	float: right;
@@ -151,6 +151,13 @@ padding: 0;
 
 .arriba6{
 margin-top: -30%;
+padding: 0;
+
+}
+
+
+.arriba7{
+margin-top: -84%;
 padding: 0;
 
 }
