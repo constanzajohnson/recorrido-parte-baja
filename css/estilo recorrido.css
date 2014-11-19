@@ -119,3 +119,62 @@ cite{
 .composición1{
 	background-image: url(img/eucaliptus3.png);
 }
+
+.arriba1{
+margin-top: -60%;
+padding: 0;
+}
+
+.arriba2{
+margin-top: -80%;
+padding: 0;
+}
+
+.arriba3{
+margin-top: -65%;
+padding: 0;
+
+}
+
+.arriba4{
+margin-top: -50%;
+padding: 0;
+
+}
+
+.arriba5{
+margin-top: -40%;
+padding: 0;
+
+}
+
+
+.arriba6{
+margin-top: -30%;
+padding: 0;
+
+}
+
+.transparencia{
+	opacity: 0.9;
+}
+
+.transparencia{
+	opacity: 0.75;
+}
+
+.invertida{
+	    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+hr.espacio{
+	color: white;
+	height: 50px;
+	border: white;
+}
