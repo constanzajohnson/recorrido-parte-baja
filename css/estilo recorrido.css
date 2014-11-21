@@ -53,6 +53,7 @@ h2{
 	font-size: 28px;
 	letter-spacing:1px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 h3{	
@@ -60,26 +61,6 @@ h3{
 	font-size: 22px;
 	
 }
-
-
-
-.contenido {
-	position: absolute;
-
-	
-}
-
-.imagen inicial{
-  position: relative;
-  z-index: -1;
-  
-  
-}
-
-.recorte2{
-
-}
-
 
 
 
@@ -95,17 +76,17 @@ p.poema{
 p.virgilio{
     font-size: 14px;
 	line-height: 25px;
+	
 }
 
 cite{
 	font-size: 16px;
 	font-style: italic;
-	color: #8a8781;
+	color: #5b5b5b;
 	line-height: 26px;
 	letter-spacing:0.5px;
 	text-align: center;
-	margin-bottom: 40px;
-	text-align: center;
+
 }
 
 .fuente{
@@ -114,11 +95,10 @@ cite{
 	font-weight: 200;
 	color:#63615d;
 	float: right;
+	text-align: right;
 }
 
-.composición1{
-	background-image: url(img/eucaliptus3.png);
-}
+
 
 .arriba1{
 margin-top: -60%;
@@ -162,6 +142,12 @@ padding: 0;
 
 }
 
+.arriba8{
+margin-top: -15%;
+padding: 0;
+
+}
+
 .transparencia{
 	opacity: 0.9;
 }
@@ -182,6 +168,27 @@ padding: 0;
 
 hr.espacio{
 	color: white;
-	height: 50px;
+	height: 10%;
 	border: white;
+}
+
+
+.container{
+
+	position: relative;
+	
+}
+
+.composicion{
+	z-index: -1;
+}
+
+.texto{
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(255,255,255,0.8);
+	padding:3%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	
 }

@@ -1,0 +1,115 @@
+body{
+	font-family: "Open sans", sans-serif;
+}
+
+body img{
+	width: 100%
+}
+
+
+body{
+	font-family: 'Merriweather', serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	letter-spacing: -1px;
+	position: relative;
+	margin-bottom: 60px;
+	color: white;
+	margin-left: 15px;
+	
+
+	
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	letter-spacing:1px;
+	margin-bottom: 20px;
+}
+
+h3{	
+    font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	
+}
+
+
+
+
+
+
+p.poema{
+	font-size: 16px;
+	white-space: pre;
+	line-height: 30px;
+	margin-bottom:40px;
+	
+}
+
+p.virgilio{
+    font-size: 14px;
+	line-height: 25px;
+	color: white;
+	margin-left: 15px;
+}
+
+cite{
+	font-size: 16px;
+	font-style: italic;
+	color: #8a8781;
+	line-height: 26px;
+	letter-spacing:0.5px;
+	text-align: center;
+	
+
+}
+
+.fuente{
+    font-style: italic;
+	font-size:13px;
+	font-weight: 200;
+	color:#63615d;
+	float: right;
+}
+
+
+
+.mapa{
+    position: absolute;
+	z-index: -1;
+
+}
+
+.caja{
+	background-color:rgba(0,0,0,0.4);
+	height: 100%;
+	padding: none;
+	
+
+}
+
+.container{
+	padding: none;
+}
+
+.btn-primary{
+    margin:20px;
+	background-color: black;
+	border: none;
+}
+
+.btn-primary:hover{
+    margin:20px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.btn-primary:visited{
+    margin:20px;
+	background-color: black;
+	border: none;
+}
