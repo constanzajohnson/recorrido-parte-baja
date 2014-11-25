@@ -9,25 +9,19 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/index.css" type=text/css rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-  <title>Recorrido ciudad abierta</title>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <title>Recorrido Ciudad Abierta</title>
   
 </head>
 
 <body>
 
 <div class="container">
-<div class="caja">
 
-
-<div class="row"
-<div class="col-xs-12">
-<div class="mapa"><img src="img/mapa.png"></div>
-</div>
-
-
-<div class="col-xs-7">
-<h1>Bienvenido a Ciudad Abierta</h1>
+<div class="row">
+<div class="col-xs-6">
+<h1>Recorrido Zona Baja</h1>
 <p class="virgilio">
 Un espacio de experimentación arquitectónica fundado en 1969 por una agrupación de poetas, filósofos, escultores, pintores, arquitectos y diseñadores vinculados a la Escuela de Arquitectura de la Universidad Católica de Valparaíso. 
 <br>Aquí encontrarás obras construidas por los miembros del grupo Ciudad Abierta y en las cuales muchos de ellos residen. Recuerda que este es su hogar, por lo que se pide respeto y silencio durante la visita. Este recorrido te llevará por senderos al encuentro con la naturaleza y la poesía, en obras tales como La Hospedería Doble, La Hospedería Colgante, Sala de Música, además de espacios naturales como el humedal de Mantagua. El recorrido dura aproximadamente 4 horas. </p>
@@ -37,15 +31,24 @@ Un espacio de experimentación arquitectónica fundado en 1969 por una agrupaci�
 </div>
 </div>
 
+<div class="col-xs-4 col-xs-offset-7">
+<div class="mapa"><img src="img/mapa.png"></div>
+<a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+</div>
 
 
 </div>
 
 </div>
-</div>
+
+<div class='popover'>hola</div>
 
 
-
+<script>
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
 
  
    

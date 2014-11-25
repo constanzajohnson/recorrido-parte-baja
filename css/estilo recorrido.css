@@ -2,10 +2,14 @@ body{
 	font-family: "Open sans", sans-serif;
 }
 
-body img{
+img{
 	width: 100%;
 }
 
+.w100{
+	width: 100%;
+	height: auto;
+}
 .recorte{
 	position: absolute;
 	width: 100%;
@@ -45,6 +49,7 @@ h1{
 	position: relative;
 	margin-bottom: 60px;
 
+
 	
 }
 
@@ -59,6 +64,7 @@ h2{
 h3{	
     font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
+	margin-top: 30px;
 	
 }
 
@@ -191,4 +197,29 @@ hr.espacio{
 	margin-top:5%;
 	margin-bottom: 5%;
 	
+}
+
+
+.textomasblanco{
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(255,255,255,0.92);
+	padding:3%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	
+}
+
+br{
+	margin-bottom: 4%;
+}
+
+
+.imagen-compuesta{
+	position: relative;
+	background-color: fuchsia;
+}
+
+.capa{
+	position: absolute;
 }
