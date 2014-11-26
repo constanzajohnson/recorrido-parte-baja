@@ -71,9 +71,7 @@ cite{
 
 .mapa{
     z-index: -1;
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    position: relative;
+  
 }
 
 .punto{

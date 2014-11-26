@@ -1,46 +1,17 @@
-body{
-	font-family: "Open sans", sans-serif;
-}
-
 img{
 	width: 100%;
 }
 
-.w100{
-	width: 100%;
+
+.w70{
+	width: 70%;
 	height: auto;
-}
-.recorte{
-	position: absolute;
-	width: 100%;
-}
-
-
-.contenedor texto lado{
-	width: 200px;
-	height: 500px;
-	float: right;
-	background-color: white;
-	position: absolute;
-	display: inline-block;
-	
-}
-
-
-.fondo transparencia{
-	opacity: 0.2;
-	position: absolute;
-}
-
-.recorte{
-
- 
-
 }
 
 body{
 	font-family: 'Merriweather', serif;
 }
+
 
 h1{
 	font-family: 'Montserrat', sans-serif;
@@ -48,8 +19,6 @@ h1{
 	letter-spacing: -1px;
 	position: relative;
 	margin-bottom: 60px;
-
-
 	
 }
 
@@ -69,8 +38,6 @@ h3{
 }
 
 
-
-
 p.poema{
 	font-size: 16px;
 	white-space: pre;
@@ -88,12 +55,13 @@ p.virgilio{
 cite{
 	font-size: 16px;
 	font-style: italic;
-	color: #5b5b5b;
+	color: #8c7b69;
 	line-height: 26px;
 	letter-spacing:0.5px;
 	text-align: center;
 
 }
+
 
 .fuente{
     font-style: italic;
@@ -185,9 +153,6 @@ hr.espacio{
 	
 }
 
-.composicion{
-	z-index: -1;
-}
 
 .texto{
 	position: absolute;
@@ -210,16 +175,47 @@ hr.espacio{
 	
 }
 
-br{
-	margin-bottom: 4%;
+.mapa{
+    z-index: -1;
+    position: relative;
 }
 
-
-.imagen-compuesta{
-	position: relative;
-	background-color: fuchsia;
-}
-
-.capa{
+.punto{
+	display: block;
 	position: absolute;
+	top: 100px;
+	right: 120px;
+	width: 20px;
+	height: 20px;
+	background-color: #fc7804;
+	border-radius: 50%;
+	box-shadow: 0 0 3px 1 rgba(0, 0, 0, .2);
+}
+
+br{
+	margin-bottom: 5%;
+}
+
+.container{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 10%;
+}
+
+.btn-primary{
+    margin:20px;
+	background-color: black;
+	border: none;
+}
+
+.btn-primary:hover{
+    margin:20px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+}
+
+.btn-primary:visited{
+    margin:20px;
+	background-color: black;
+	border: none;
 }
