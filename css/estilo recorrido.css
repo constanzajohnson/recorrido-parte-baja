@@ -72,6 +72,11 @@ cite{
 	text-align: right;
 }
 
+blockquote{
+	color: #8c7b69;
+	border: none;
+	font-size: 16px;
+}
 
 
 .arriba1{
@@ -219,3 +224,4 @@ br{
 	background-color: black;
 	border: none;
 }
+
