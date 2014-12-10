@@ -1,104 +1,126 @@
 body{
-	font-family: 'Merriweather', serif;
+font-family: 'Merriweather', serif;
 }
-
 h1{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
-	letter-spacing: -1px;
-	position: relative;
-	margin-bottom: 60px;
-	margin-left: 15px;	
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+letter-spacing: -1px;
+position: relative;
+margin-bottom: 60px;
+margin-left: 15px;
 }
-
 h2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 28px;
-	letter-spacing:1px;
-	margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+letter-spacing:1px;
+margin-bottom: 20px;
 }
-
-h3{	
-    font-family: 'Montserrat', sans-serif;
-	font-size: 22px;	
+h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
 }
-
 p.poema{
-	font-size: 16px;
-	white-space: pre;
-	line-height: 30px;
-	margin-bottom:40px;	
+font-size: 16px;
+white-space: pre;
+line-height: 30px;
+margin-bottom:40px;
 }
-
 p.virgilio{
-    font-size: 15px;
-	line-height: 25px;
-	margin-left: 15px;
+font-size: 15px;
+line-height: 25px;
+margin-left: 15px;
 }
-
 cite{
-	font-size: 16px;
-	font-style: italic;
-	color: #8a8781;
-	line-height: 26px;
-	letter-spacing:0.5px;
-	text-align: center;
+font-size: 16px;
+font-style: italic;
+color: #8a8781;
+line-height: 26px;
+letter-spacing:0.5px;
+text-align: center;
 }
-
 blockquote{
- color: #8a8781;	
+color: #8a8781;
 }
-
 .fuente{
-    font-style: italic;
-	font-size:13px;
-	font-weight: 200;
-	color:#63615d;
-	float: right;
+font-style: italic;
+font-size:13px;
+font-weight: 200;
+color:#63615d;
+float: right;
 }
-
-
-
 .mapa{
-    z-index: -1;
+z-index: -1;
 }
-
 .punto{
-	display: block;
-	position: absolute;
-	top: 100px;
-	right: 120px;
-	width: 20px;
-	height: 20px;
-	background-color: #fc7804;
-	border-radius: 50%;
-	box-shadow: 0 0 3px 1 rgba(0, 0, 0, .2);
-}
+display: block;
+position: absolute;
+width: 17px;
+height: 17px;
+background-color: #5262ba;
+border-radius: 50%;
+box-shadow: 0 0 3px 1 rgba(0, 0, 0, .2);
 
+}
 br{
-	margin-bottom: 5%;
+margin-bottom: 5%;
 }
-
 .container{
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 10%;
+padding-left: 0;
+padding-right: 0;
+padding-top: 10%;
 }
-
 .btn-primary{
-    margin:20px;
-	background-color: black;
-	border: none;
+margin:20px;
+background-color: black;
+border: none;
 }
-
 .btn-primary:hover{
-    margin:20px;
-	background-color: rgba(0,0,0,0.5);
-	border: none;
+margin:20px;
+background-color: rgba(0,0,0,0.5);
+border: none;
+}
+.btn-primary:visited{
+margin:20px;
+background-color: black;
+border: none;
 }
 
-.btn-primary:visited{
-    margin:20px;
-	background-color: black;
-	border: none;
+.arriba1{
+margin-top: -52%;
+padding: 0;
+}
+
+.arriba2{
+margin-top: -47%;
+padding: 0;
+}
+
+.arriba3{
+margin-top: -70%;
+padding: 0;
+}
+
+.arriba4{
+margin-top: -95%;
+padding: 0;
+}
+
+.arriba5{
+margin-top: -150%;
+padding: 0;
+}
+
+.arriba6{
+margin-top: -195%;
+padding: 0;
+}
+
+.arriba7{
+margin-top: -167%;
+padding: 0;
+}
+
+.arriba8{
+margin-top: -143%;
+padding: 0;
 }
