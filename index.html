@@ -29,43 +29,44 @@ Aquí encontrarás obras construidas por los miembros del grupo Ciudad Abierta y
  <div class="col-xs-6">
   <div class="mapa"><img src="img/mapa.png" class="img-responsive"></div>
   <div class="col-xs-1 col-xs-offset-2 arriba1">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Plaza torres de agua"></a>
   </div>
   <div class="col-xs-1 col-xs-offset-6 arriba2">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Hospedería de la Entrada"></a>
   </div>
   <div class="col-xs-1 col-xs-offset-8 arriba3">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Conjunto de Hospederías"></a>
   </div>
    <div class="col-xs-1 col-xs-offset-7 arriba4">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Mesa del Entreacto"></a>
   </div>
    <div class="col-xs-1 col-xs-offset-8 arriba5">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Campo Dunar"></a>
   </div>
    <div class="col-xs-1 col-xs-offset-6 arriba6">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Vega"></a>
   </div>
    <div class="col-xs-1 col-xs-offset-5 arriba7">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Calzada de las aguas"></a>
   </div>
    <div class="col-xs-1 col-xs-offset-3 arriba8">
-   <a class='punto' href='#' data-toggle='popover' data-title='hospedería ble' data-content='lorem ipsum'></a>
+   <a class='punto' data-toggle="tooltip" data-placement="top" title="Sala de Música"></a>
   </div>
 
-  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
-   </div>
+
+     </div>
   </div>
  </div>
-</div>
 
 
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-   $(function () {
-        $("[rel='tooltip']").tooltip();
-    });
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
     </script>
 
 
